@@ -30,6 +30,7 @@ class BadWordsFilterTest extends \PHPUnit_Framework_TestCase
             array('Shut your flower FACE uncle flower', 'Shut your FuckIng FACE uncle fucker'),
             array("flower\n", "uncleFUCK3R\n"),
             array('donkey flower flower eater', 'donkey raping shit eater'),
+            array('flower faced flower', 'shit faced cockmaster'),
         );
     }
 
