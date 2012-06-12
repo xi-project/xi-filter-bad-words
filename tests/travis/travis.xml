@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<phpunit bootstrap="bootstrap.php" colors="true">
+<phpunit bootstrap="./../bootstrap.php" colors="true">
     <testsuites>
         <testsuite name="xi-badwords-tests">
-            <directory>./Xi</directory>
+            <directory>./../Xi</directory>
         </testsuite>
     </testsuites>
 
